@@ -1,0 +1,13 @@
+﻿.btn {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    background-image: url('../../../img/icons/plus.png');
+    background-color: white;
+    background-size: cover;
+    border-radius: 30px;
+    
+    &:hover {
+        background-color: grey;
+    }
+}

@@ -1,0 +1,58 @@
+﻿.container {
+    width: 100%;
+}
+
+.btnTab {
+    background: white;
+    border: 2px solid black;
+    font-family: 'Neucha', cursive;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    color: black;
+    padding: 20px 20px;
+    cursor: pointer;
+    width: 50%;
+
+    &:first-child {
+        border-right: none;
+    }
+
+    &--active {
+        background: grey  ;
+    }
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+
+    &__item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 10px;
+    }
+
+    &__warning {
+        padding: 5px 10px;
+    }
+
+    &__skill {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 50%;
+    }
+}
+
+.btnSkills {
+    cursor: pointer;
+
+    &:hover {
+        background: grey;
+    }
+}
