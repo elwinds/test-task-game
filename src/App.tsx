@@ -16,7 +16,6 @@ function App() {
     vitality: 3,
   });
 
-  // setParameters({...parameters, power: 5})
   const [skills, setSkills] = React.useState({
     attack: 0,
     stealth: 0,
@@ -29,18 +28,6 @@ function App() {
     appearance: 0,
     manipulation: 0
   });
-
-
-  // const [attack, setAttack] = React.useState(0);
-  // const [stealth, setStealth] = React.useState(0);
-  // const [archery, setArchery] = React.useState(0);
-  // const [learnability, setLearnability] = React.useState(0);
-  // const [survival, setSurvival] = React.useState(0);
-  // const [medicine, setMedicine] = React.useState(0);
-  // const [intimidation, setIntimidation] = React.useState(0);
-  // const [insight, setInsight] = React.useState(0);
-  // const [appearance, setAppearance] = React.useState(0);
-  // const [manipulation, setManipulation] = React.useState(0);
 
   return (
     <AppContext.Provider
